@@ -21,9 +21,9 @@ router.get('/projects', function(req, res, next) {
   res.render('Projects', { title: 'Projects' });
 });
 
-/* Contactme. */
+/* Contact Me. */
 router.get('/contactme', function(req, res, next) {
-  res.render('index', { title: 'Contact Me' });
+  res.render('contactme', { title: 'Contact Me' });
 });
 
 module.exports = router;
