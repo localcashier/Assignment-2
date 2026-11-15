@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    min-height: 100vh;
+    /* angled linear gradient background for the whole page */
+    background: linear-gradient(160deg, azure 0%, aliceblue 50%, beige 100%);
+}
+
+
+main {
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+    background: linear-gradient(to bottom, azure, aliceblue);
+    border: 2px solid tan;
+}
+
+main section h1,
+main section h2 {
+    color: #333333;
+    border-bottom: 2px solid tan;
+    padding-bottom: 8px;
+}
+
+main section p {
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+
+main img, main video {
+    display: block;
+    margin: 15px 0;
+    border: 3px solid tan;
+}
+
+
+.profile-photo {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+main article {
+    background-color: beige;
+    border-left: 5px solid tan;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+main article h3 {
+    margin-top: 0;
+    color: #333333;
+}
