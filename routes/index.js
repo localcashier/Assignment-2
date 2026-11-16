@@ -18,7 +18,7 @@ router.get('/aboutme', function(req, res, next) {
 
 /* GET Projects page. */
 router.get('/projects', function(req, res, next) {
-  res.render('Projects', { title: 'Projects' });
+  res.render('projects', { title: 'Projects' });
 });
 
 /* Contact Me. */
